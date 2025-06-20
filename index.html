@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuvii</title>
+    <meta name="description" content="Portfolio of Yubraj Kurmi, a 21-year-old developer from Nepal passionate about game development, web applications, and automation scripts.">
+    <meta name="keywords" content="Yubraj Kurmi, developer, portfolio, Python, JavaScript, game development, web development">
+    <meta name="author" content="Yubraj Kurmi">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://maestro.github.io/Yuvii/">
+    <meta property="og:title" content="Yuvraj Kurmi - A passionate Developer">
+    <meta property="og:description" content="Portfolio showcasing projects in Python, JavaScript, Lua, and more.">
+    
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Yubraj Kurmi - 21-year-old Developer">
+    <meta property="twitter:description" content="Portfolio showcasing projects in Python, JavaScript, Lua, and more.">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Metropolis:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <button class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation">
+    ☰
+</button>
+
+    <div class="cursor"></div>
+    <div class="cursor-dot"></div>
+    <div class="reading-progress"></div>
+
+    <nav class="navigation">
+        <div class="nav-container">
+            <a href="#about" class="nav-link">about</a>
+            <a href="#projects" class="nav-link">projects</a>
+            <a href="#skills" class="nav-link">skills</a>
+            <a href="#setup" class="nav-link">setup</a>
+            <a href="#contact" class="nav-link">contact</a>
+        </div>
+    </nav>
+
+    <button id="darkModeToggle" class="dark-mode-toggle" aria-label="Toggle dark mode">
+        <span class="toggle-text">dark</span>
+    </button>
+
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <span class="back-to-top-icon">↑</span>
+    </button>
+
+    <header class="header fade-in">
+        <h1 class="name">Yubraj Kurmi<span class="typing-indicator"></span></h1>
+        <p class="title">A passionate developer from Nepal.</p>
+        <div class="contact">
+            <a href="mailto:developerrajir@gmail.com">mail</a>
+            <a href="https://github.com/DevMaestroHQ">github</a>
+            <a href="https://instagram.com/in/dev_maestr0">instagram</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section fade-in">
+            <h2 class="section-title">about</h2>
+            <p class="about">
+                Hi, I'm Yubraj Kurmi, a passionate Developer from Nepal with a Passion for Coding and Technology. I have a keen interest in Game Development, Web Applications, and Automation Scripts. In my free time, I enjoy working on Personal Projects, Contributing to open-source, and exploring new Programming Languages. I'm always looking for new challenges and opportunities to collaborate with other developers. If you're interested in working together or just want to chat about tech, feel free to reach out. I love connecting with fellow developers and sharing knowledge, so don't hesitate to drop me a message.
+            </p>
+        </section>
+
+        <section id="projects" class="section fade-in">
+            <h2 class="section-title">projects</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <div class="project-header">
+                        <div class="project-name">
+                            <a href="https://github.com/DevMaestroHQ/OddEven-SP">OddEven-SP</a>
+                        </div>
+                        <div class="project-tech">python</div>
+                    </div>
+                    <div class="project-description">
+                        OddEven Singleplayer is a fun, interactive terminal-based game where you challenge a computer opponent in a thrilling game of odd-even cricket. Featuring Dark/Light mode, Rank Progression, Achievements, and Smart AI.
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Aarav2709/OddEven-SP" class="project-link" target="_blank" rel="noopener noreferrer">
+                            <span class="link-icon">🔗</span>
+                            <span>github</span>
+                        </a>
+                        <a href="https://oddevensp.vercel.app" class="project-link demo-link" target="_blank" rel="noopener noreferrer">
+                            <span class="link-icon">🚀</span>
+                            <span>website</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="project-header">
+                        <div class="project-name">
+                            <a href="https://github.com/DevMaestroHQ/SnakeType">SnakeType</a>
+                        </div>
+                        <div class="project-tech">python</div>
+                    </div>
+                    <div class="project-description">
+                        A Project that mimics all Typing Websites, but now in Python. A Simple Terminal-based Typing Speed Test tool made in Python.
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/DevMaestroHQ/SnakeType" class="project-link" target="_blank" rel="noopener noreferrer">
+                            <span class="link-icon">🔗</span>
+                            <span>github</span>
+                        </a>
+                        <a href="https://snaketype.vercel.app" class="project-link demo-link" target="_blank" rel="noopener noreferrer">
+                            <span class="link-icon">🚀</span>
+                            <span>website</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="project-header">
+                        <div class="project-name">
+                            <a href="https://github.com/DevMaestroHQ/FR2-Reborn">Fun Run 2 - Reborn</a>
+                        </div>
+                        <div class="project-tech">lua, solar2d api</div>
+                    </div>
+                    <div class="project-description">
+                        This is a fully Reimagined Version of Fun Run 2, built from the ground up in the original engine, Solar2D (formerly Corona SDK). The goal is to bring back the chaotic fun of the Original with Modern Enhancements, while staying faithful to its roots.
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/DevMaestroHQ/FR2-Reborn" class="project-link" target="_blank" rel="noopener noreferrer">
+                            <span class="link-icon">🔗</span>
+                            <span>github</span>
+                        </a>
+                        <span class="project-status">in development</span>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="project-header">
+                        <div class="project-name">
+                            <a href="https://github.com/DevMaestroHQ/">DevMaestroHQ</a>
+                        </div>
+                        <div class="project-tech">html, css, javascript</div>
+                    </div>
+                    <div class="project-description">
+                        A one stop destination for all my projects. a Personal Website showcasing my Portfolio, Skills, and Experiences.
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Aarav2709/AarusPortfolio" class="project-link" target="_blank" rel="noopener noreferrer">
+                            <span class="link-icon">🔗</span>
+                            <span>github</span>
+                        </a>
+                        <span class="project-status current">you're here!</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section fade-in">
+            <h2 class="section-title">skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">Python</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="65"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">JavaScript</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="50"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">HTML/CSS</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">React</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="30"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Frameworks & Tools</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">Git</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="55"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Firebase</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="60"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">VS Code</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">PyCharm</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="80"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="setup" class="section fade-in">
+            <h2 class="section-title">tools & setup</h2>
+            <div class="misc-grid">
+                <div class="misc-item floating">
+                    <h3>Development Environment</h3>
+                    <div class="misc-content">
+                        <span class="highlight">cursor</span> for web development.<br>
+                        <span class="highlight">pycharm</span> Community edition.<br>
+                        <span class="highlight">Firebase</span> for Hosting and Authentication.<br>
+                        <span class="highlight">git</span> for version control.
+                    </div>
+                </div>
+
+                <div class="misc-item floating">
+                    <h3>AI Assistance</h3>
+                    <div class="misc-content">
+                        <span class="highlight">gemini 2.5 pro</span> for brainstorming.<br>
+                        <span class="highlight">claude opus 4</span> for code review.<br>
+                        <span class="highlight">github copilot pro+</span> for suggestions.
+                    </div>
+                </div>
+
+                <div class="misc-item floating">
+                    <h3>Primary Workstation</h3>
+                    <div class="misc-content">
+                        <span class="highlight">Intel I5</span> @4.5ghz<br>
+                        <span class="highlight">16 DDR5</span> @4800mhz<br>
+                        <span class="highlight">rtx 1060</span> 4gb gddr6<br>
+                        <span class="highlight">windows 11</span> Pro
+                    </div>
+                </div>
+
+                <div class="misc-item floating">
+                    <h3>Laptop #1</h3>
+                    <div class="misc-content">
+                        <span class="highlight">intel i5 11th gen</span> @4.1ghz<br>
+                        <span class="highlight">4gb ddr4</span> @2666mhz<br>
+                        <span class="highlight">intel uhd</span> graphics<br>
+                        <span class="highlight">Arch Linux</span> workstation
+                    </div>
+                </div>
+
+                <div class="misc-item floating">
+                    <h3>Laptop #2</h3>
+                    <div class="misc-content">
+                        <span class="highlight">intel i5 13th gen</span> @4.4ghz<br>
+                        <span class="highlight">16gb DDR5</span> @3200mhz<br>
+                        <span class="highlight">Intel UHD</span> 4gb laptop<br>
+                        <span class="highlight">windows 11</span> pro
+                    </div>
+                </div>
+
+                <div class="misc-item floating">
+                    <h3>Current Focus</h3>
+                    <div class="misc-content">
+                        completing <span class="highlight">Edubridge</span> & <span class="highlight">Chatterbox</span>.<br>
+                        exploring <span class="highlight">game development</span> with roblox studio.<br>
+                        contributing to <span class="highlight">open source projects</span>.<br>
+                        building <span class="highlight">portfolio</span> projects.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section fade-in">
+            <h2 class="section-title">get in touch</h2>
+            <div class="contact-section">
+                <div class="contact-info">
+                    <p>Have a project in mind or just want to chat about tech? I'd love to hear from you!</p>
+                    <div class="contact-links">
+                        <a href="mailto:developerrajir@gmail.com" class="contact-link">
+                            <span class="contact-icon">✉</span>
+                            <span>developerrajir@gmail.com</span>
+                        </a>
+                        <a href="https://github.com/DevMaestroHQ" class="contact-link" target="_blank">
+                            <span class="contact-icon">🐱</span>
+                            <span>github.com/DevMaestroHQ</span>
+                        </a>
+                        <a href="https://instagram.com/in/dev_maestr0" class="contact-link" target="_blank">
+                            <span class="contact-icon">💼</span>
+                            <span>instagram.com/in/dev_maestr0</span>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">
+                        <span class="button-text">send message</span>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer fade-in">
+        <p>copyright 2025. made by Yubraj Kurmi. crafted with fun & code.</p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
