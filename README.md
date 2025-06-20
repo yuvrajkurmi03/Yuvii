@@ -17,10 +17,10 @@ A personal website showcasing my portfolio, skills, and experiences.
 ## 🔧 Installation
 ```bash
 # Clone the repository
-git clone https://github.com/Aarav2709/AarusPortfolio.git
+git clone https://github.com/DevMaestroHQ/Yuvii.git
 
 # Navigate to the project directory
-cd AarusPortfolio
+cd Yuvii
 
 # Install dependencies
 npm install
