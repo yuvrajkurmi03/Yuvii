@@ -1,4 +1,4 @@
-# 🚀 AarusPortfolio
+# 🚀 YuviiPortfolio
 
 ## 📝 Description
 A personal website showcasing my portfolio, skills, and experiences.
@@ -13,7 +13,7 @@ A personal website showcasing my portfolio, skills, and experiences.
 ## 🔧 Installation
 ```bash
 # Clone the repository
-git clone https://github.com/DevMaestroHQ/Yuvii.git
+git clone https://github.com/yuvrajkurmi03/Yuvii.git
 
 # Navigate to the project directory
 cd Yuvii
